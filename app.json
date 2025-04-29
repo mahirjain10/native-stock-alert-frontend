@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "stock-alert",
+    "slug": "stock-alert",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.stockalert"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            {
+              "name": "MonaSans-Regular",
+              "path": "./assets/fonts/monoSans/MonaSans-Regular.ttf"
+            },
+            {
+              "name": "MonaSans-Bold",
+              "path": "./assets/fonts/monoSans/MonaSans-Bold.ttf"
+            },
+            {
+              "name": "MonaSans-Light",
+              "path": "./assets/fonts/monoSans/MonaSans-Light.ttf"
+            }
+          ]
+        }
+      ],
+      "expo-notifications"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
