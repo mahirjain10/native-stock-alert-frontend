@@ -36,18 +36,10 @@
         "expo-font",
         {
           "fonts": [
-            {
-              "name": "MonaSans-Regular",
-              "path": "./assets/fonts/monoSans/MonaSans-Regular.ttf"
-            },
-            {
-              "name": "MonaSans-Bold",
-              "path": "./assets/fonts/monoSans/MonaSans-Bold.ttf"
-            },
-            {
-              "name": "MonaSans-Light",
-              "path": "./assets/fonts/monoSans/MonaSans-Light.ttf"
-            }
+          
+            "./assets/fonts/monoSans/MonaSans-Regular.ttf",
+            "./assets/fonts/monoSans/MonaSans-Bold.ttf",
+            "./assets/fonts/monoSans/MonaSans-Light.ttf"
           ]
         }
       ],
