@@ -7,7 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "android": {
       "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
@@ -36,10 +36,9 @@
         "expo-font",
         {
           "fonts": [
-          
-            "./assets/fonts/monoSans/MonaSans-Regular.ttf",
-            "./assets/fonts/monoSans/MonaSans-Bold.ttf",
-            "./assets/fonts/monoSans/MonaSans-Light.ttf"
+            "./assets/fonts/monoSans/static/MonaSans-Regular.ttf",
+            "./assets/fonts/monoSans/static/MonaSans-Bold.ttf",
+            "./assets/fonts/monoSans/static/MonaSans-Light.ttf"
           ]
         }
       ],

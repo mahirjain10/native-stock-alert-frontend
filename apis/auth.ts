@@ -1,9 +1,10 @@
 import axios from "axios"
 
 import { loginType, signUpType } from "@/types/auth";
-import { ApiResponse
+import {
+  ApiResponse
 
- } from "@/types/responseType";
+} from "@/types/responseType";
 
 export const signUpApi = async (form: signUpType): Promise<ApiResponse<any>> => {
   try {
@@ -20,8 +21,8 @@ export const signUpApi = async (form: signUpType): Promise<ApiResponse<any>> => 
     return response.data;
   } catch (error: any) {
     console.error('Error during signup:', error);
-    throw new Error(error.response?.data?.message || "Signup failed"); 
-    
+    throw new Error(error.response?.data?.message || "Signup failed");
+
   }
 };
 
@@ -40,7 +41,7 @@ export const loginApi = async (form: loginType): Promise<ApiResponse<any>> => {
     return response.data;
   } catch (error: any) {
     console.error('Error during signup:', error);
-    throw new Error(error.response?.data?.message || "Signup failed"); 
-    
+    throw new Error(error.response?.data?.message || "Signup failed");
+
   }
 };
